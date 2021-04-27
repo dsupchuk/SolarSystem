@@ -38,5 +38,13 @@ h1 {
 .renderSolar img {
   width: 45px;
   height: 45px;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.renderSolar img:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 /*# sourceMappingURL=style.css.map */
